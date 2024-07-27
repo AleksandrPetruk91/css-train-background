@@ -7,52 +7,74 @@
 }
 
 .task3 {
+  background: linear-gradient(to top, red, yellow);
 }
 
 .task4 {
+  background: radial-gradient(
+    closest-side,
+    #3f87a6,
+    #ebf8e1,
+    #f69d3c
+  );
 }
 
 .task5 {
+  background: conic-gradient(
+    from 3.1416rad at 10% 50%,
+    #e66465,
+    #9198e5
+  );
 }
 
 .task6 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-x;
 }
 
 .task7 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y;
 }
 
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat;
 }
 
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: space;
 }
 
 .task10 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: round;
 }
 
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: scroll;
 }
 
 .task12 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: fixed;
 }
 
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: local;
 }
 
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: center;
 }
 
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: top;
 }
 
 .task16 {
